@@ -1,97 +1,47 @@
-body{
-    padding: 20px;
+/* General Styles */
+.introduction{
+position: relative;
+padding: 10px;
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
-.myclass {
-    text-align: center;
-    height: 1%;
-}
-
-/*coment*/
-.myclass1 {
-    font-family: unset;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 200;
-}
-
-.myclass2 {
-    text-align: right;
-    padding-top: -100%;
-}
-
-.myclass3 {
-    text-align: left;
-}
-
-#aside_left {
-    width: 83%;
-    min-height: 380px;
-    /*background-color: rgb(69, 248, 45);*/
-    /*padding-left: 1%;*/
+.leftDiv{
+    width: 60%;
+    height: 100%;
     float: left;
 }
-
-#aside_right {
-    width: 15%;
-    min-height: 380px;
+.rightDiv{
+    width: 30%;
+    height: 100%;
     float: right;
 }
-
-#aside_main {
-    width: 9%;
-    min-height: 5000px;
-    background-color: rgb(168, 168, 168);
-    color: rgb(46, 16, 102);
-    padding-left: 1%;
-    float: left;
+.container{
+    width:100%; 
+    height:100px;
 }
-
-#div_right {
-    width: 15%;
-    min-height: 380px;
-    /*background-color: rgb(171, 211, 248);*/
-    /* padding-left: 1%; */
-    float: right;
+.btn{
+    background: rgb(66, 184, 238);
+    color: white;
+    position: relative;
+    width: fit-content;
+padding: 10px;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
 }
-
-#body_div {
+a{
+    text-decoration: none;
+}
+.pdf{
     width: 100%;
-    min-height: 5000px;
-    /* padding-left: 1%; */
-    float: right;
-    /*text-align: center;*/
-    height: 1%;
+    height: 500px;
+}
+.image{
+    height: 100%;
+    width:100%;
 }
 
-#names1 {
-    text-align: center;
-}
-
-#names2 {
-    text-align: center;
-}
-
-#footer_div {
-    height: 100px;
-    background-color: rgb(193, 217, 247);
-    color: rgb(32, 3, 65);
-    padding-left: 1%;
-}
-
-#mytitle {
-    text-align: center;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-
-}
